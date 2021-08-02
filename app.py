@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import joblib
 
-# initialse the app
+# initialse the application
 app = Flask(__name__)
 
 #load the model
